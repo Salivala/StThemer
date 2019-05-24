@@ -1,3 +1,3 @@
 #!/bin/bash
 ./bundle.sh
-python3 ./output/themer.zip
+python3 ./output/themer
