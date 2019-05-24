@@ -1,6 +1,11 @@
 #!/bin/bash
 
-name="themer"
+if [ $# -eq 0 ] 
+then
+	name="themer"
+else
+	name=$1
+fi
 main_file="themer.py"
 
 
@@ -19,4 +24,4 @@ fi
 mv $name.zip ./output
 chmod 777 ./output/$name.zip
 rm -r themer
-mv ./output/themer.zip ./output/themer
+mv ./output/$name.zip ./output/$name
