@@ -3,8 +3,8 @@ from __future__ import print_function
 import os
 import sys
 import re
+from config_manager import ConfigManger
 REGEX = r"static const char \*colorname\[\] = {(.*)"
-
 
 def main_func():
     """ Primary function where program begins """
