@@ -1,2 +1,4 @@
-for x in range(1,99):
-    print(x)
+""" cool """
+from st_themes import X
+
+print(X)
